@@ -1,0 +1,14 @@
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:h2:mem:reservationsDb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  hikari:
+    connection-timeout: 20000
+    maximum-pool-size: 10
+    idle-timeout: 10000
+    max-lifetime: 30000
