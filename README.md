@@ -22,7 +22,7 @@ mvn clean package
 #### Local Environment Profile
 
 ```text
-java -jar -Djasypt.encryptor.password=local target/reservations-service-0.0.1-RELEASE.jar
+java -jar target/reservations-service-0.0.1-RELEASE.jar
 ```
 
 #### Production Environment Profile
