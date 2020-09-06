@@ -26,7 +26,7 @@ public class SwaggerConfig {
 
   private ApiInfo getApiInfo(){
     return new ApiInfo(
-        "Spring Boot Microservice Reservations Example",
+        "Spring Boot Microservice Reservations-Service Example",
         "",
         "1.0.0",
         "",
