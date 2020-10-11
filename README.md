@@ -1,4 +1,5 @@
 # Reservations-Service
+# This just a example of using the listed technologies for learning purposes
 
 This service is responsible to return the list of available reservations in the database
 
